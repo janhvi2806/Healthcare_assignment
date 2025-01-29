@@ -1,0 +1,12 @@
+{
+    "gender": "Male",
+    "age": 45,
+    "hypertension": 1,
+    "heart_disease": 0,
+    "ever_married": "Yes",
+    "work_type": "Private",
+    "Residence_type": "Urban",
+    "avg_glucose_level": 120.5,
+    "bmi": 28.0,
+    "smoking_status": "formerly smoked"
+}

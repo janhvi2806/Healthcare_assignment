@@ -1,0 +1,24 @@
+1. Save your trained model and label encoders.
+
+2. Test the API. Use Postman or cURL to send POST requests.
+
+Example with Postman:
+-> URL: http://127.0.0.1:5000/predict
+-> Method: POST
+-> Body (JSON):
+{
+    "gender": "Male",
+    "age": 45,
+    "hypertension": 1,
+    "heart_disease": 0,
+    "ever_married": "Yes",
+    "work_type": "Private",
+    "Residence_type": "Urban",
+    "avg_glucose_level": 120.5,
+    "bmi": 28.0,
+    "smoking_status": "formerly smoked"
+}
+
+3. Run the Flask Server. Save the script (e.g., app.py) and run it: python app.py.
+
+4. For production, consider deploying with Gunicorn and hosting on AWS, Heroku, or similar platforms.
